@@ -1,0 +1,12 @@
+
+.sqr-btn {
+    background-color: red;
+    margin: 5px;
+    width: 100%;
+    max-width: 150px;
+    aspect-ratio: 1/1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

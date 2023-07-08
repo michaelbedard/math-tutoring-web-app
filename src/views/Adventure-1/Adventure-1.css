@@ -1,0 +1,15 @@
+
+.adventure-1__background-container {
+    background-color: bisque;
+    padding: 20px;
+}
+
+.adventure-1__grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.adventure-1__grid-item {
+    min-width: 120px;
+    margin: 10px;
+}

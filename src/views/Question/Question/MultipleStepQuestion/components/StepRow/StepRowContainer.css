@@ -1,0 +1,20 @@
+
+.step-row-container__background {
+}
+
+.step-row-container__grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    text-align: center;
+    justify-content: center;
+}
+
+.step-row-container__grid-item {
+    padding: 20px;
+}
+
+.step-row-container__grid-item.label-drag-drop {
+    background-color: #3f51b5;
+    margin: 5px;
+    border-radius: 20px;
+}

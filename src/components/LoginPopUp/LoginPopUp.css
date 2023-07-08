@@ -1,0 +1,36 @@
+
+.login-pop-up__overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background:rgba(0,0,0,0.7);
+    z-index: 1;
+}
+
+.login-pop-up__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    z-index: 2;
+}
+
+.login-pop-up__container-content {
+}
+
+.login-pop-up__container--close-btn {
+    display: flex;
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3f51b5;
+    width: 20px;
+    height: 20px;
+}

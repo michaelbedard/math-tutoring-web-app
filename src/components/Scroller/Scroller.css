@@ -1,0 +1,14 @@
+
+.scroller--y {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+.scroller--x {
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+}
