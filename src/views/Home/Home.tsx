@@ -11,7 +11,7 @@ const Home = () => {
                 <Header />
                 <div className={"grid-container"}>
                     <div className="grid-item primary-text" style={{minHeight:"120px"}}>
-                        Pars a l'aventure!
+                        Pars a l'aventure! beuhe
                     </div>
                     <div className="grid-item card-btn">
                         <SquareButton
